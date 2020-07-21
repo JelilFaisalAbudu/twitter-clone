@@ -37,6 +37,9 @@ gem 'bulma-rails', '~> 0.9.0'
 # For form made easy
 gem 'simple_form', '~> 5.0', '>= 5.0.2'
 
+# Add font awesome to the project
+gem "font-awesome-rails"
+
 # A configurable and documented Rails view helper for adding gravatars into your Rails application
 gem 'gravatar_image_tag', '~> 1.2'
 
