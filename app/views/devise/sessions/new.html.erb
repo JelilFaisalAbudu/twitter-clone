@@ -4,9 +4,9 @@
 
       <div class="column is-4">
 
-        <h2 class="title">Sign Up</h2>
+        <h2 class="title">Sign in</h2>
 
-      <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+      <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
         <%= f.error_notification %>
 
         <div class="field">
